@@ -9,8 +9,10 @@ package Clases;
  * @author crist
  */
 public class Usuario {
-    private String  rfc, curp, correo, contraseña, nombre, apellidoMaterno, apellidoPaterno, tipo;
+
+    private String rfc, curp, correo, contraseña, nombre, apellidoMaterno, apellidoPaterno, tipo;
     private int id;
+
     public int getId() {
         return id;
     }
@@ -92,5 +94,5 @@ public class Usuario {
     public void setApellidoPaterno(String apellidoPaterno) {
         this.apellidoPaterno = apellidoPaterno;
     }
-    
+
 }

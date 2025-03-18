@@ -5,15 +5,17 @@
 package Clases;
 
 public class Medico {
+
     private int id;
     private String nombre;
     private String especialidad;
     private String correo;
+
     public Medico(int id, String nombre, String especialidad, String correo) {
         this.id = id;
         this.nombre = nombre;
         this.especialidad = especialidad;
-        this.correo=correo;
+        this.correo = correo;
     }
 
     public int getId() {

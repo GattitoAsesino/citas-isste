@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package Vista;
+
 import Clases.Usuario;
 import Modelo.RegistrarUsuario;
 import java.sql.Connection;
@@ -10,11 +11,13 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
+
 /**
  *
  * @author crist
  */
 public class Vista_Registro_Usuario extends javax.swing.JFrame {
+
     private Connection conn;
 
     /**
@@ -80,15 +83,15 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(18, 18, 18)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 433, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(749, Short.MAX_VALUE))
+                jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(18, 18, 18)
+                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 433, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addContainerGap(749, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jLabel1.getAccessibleContext().setAccessibleDescription("");
@@ -185,12 +188,12 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Registrarse, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 98, Short.MAX_VALUE)
+                jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(Registrarse, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 98, Short.MAX_VALUE)
         );
         jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Registrarse, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
+                jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(Registrarse, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
         );
 
         jLabel16.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
@@ -209,93 +212,93 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addGap(307, 307, 307)
-                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addComponent(jLabel6)
-                                .addGap(55, 55, 55)
-                                .addComponent(rfc, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel2)
-                                    .addComponent(jLabel3))
-                                .addGap(55, 55, 55)
+                jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel5Layout.createSequentialGroup()
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(apellido_p, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(nombre, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel5)
-                                    .addComponent(jLabel4))
-                                .addGap(55, 55, 55)
-                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(apellido_m, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(curp, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel8)
-                                    .addComponent(jLabel7)
-                                    .addComponent(jLabel9))
-                                .addGap(55, 55, 55)
-                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(confirmar_contraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(correo)
-                                        .addComponent(contraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addGap(428, 428, 428)
-                        .addComponent(jLabel16)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(iniciarSesion)))
-                .addContainerGap(336, Short.MAX_VALUE))
+                                        .addGroup(jPanel5Layout.createSequentialGroup()
+                                                .addGap(307, 307, 307)
+                                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                        .addGroup(jPanel5Layout.createSequentialGroup()
+                                                                .addComponent(jLabel6)
+                                                                .addGap(55, 55, 55)
+                                                                .addComponent(rfc, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                        .addGroup(jPanel5Layout.createSequentialGroup()
+                                                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                                        .addComponent(jLabel2)
+                                                                        .addComponent(jLabel3))
+                                                                .addGap(55, 55, 55)
+                                                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                                        .addComponent(apellido_p, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                        .addComponent(nombre, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                        .addGroup(jPanel5Layout.createSequentialGroup()
+                                                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                                        .addComponent(jLabel5)
+                                                                        .addComponent(jLabel4))
+                                                                .addGap(55, 55, 55)
+                                                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                                        .addComponent(apellido_m, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                        .addComponent(curp, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                        .addGroup(jPanel5Layout.createSequentialGroup()
+                                                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                                        .addComponent(jLabel8)
+                                                                        .addComponent(jLabel7)
+                                                                        .addComponent(jLabel9))
+                                                                .addGap(55, 55, 55)
+                                                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                                        .addComponent(confirmar_contraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                                                                .addComponent(correo)
+                                                                                .addComponent(contraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                        .addGroup(jPanel5Layout.createSequentialGroup()
+                                                .addGap(428, 428, 428)
+                                                .addComponent(jLabel16)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(iniciarSesion)))
+                                .addContainerGap(336, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGap(30, 30, 30)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(40, 40, 40)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(apellido_p, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(40, 40, 40)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(apellido_m, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(40, 40, 40)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(curp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(40, 40, 40)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(rfc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(40, 40, 40)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(correo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(40, 40, 40)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(contraseña, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(40, 40, 40)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(confirmar_contraseña, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel16)
-                    .addComponent(iniciarSesion))
-                .addGap(16, 16, 16))
+                jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel5Layout.createSequentialGroup()
+                                .addGap(30, 30, 30)
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(nombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(40, 40, 40)
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(apellido_p, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(40, 40, 40)
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(apellido_m, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(40, 40, 40)
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(curp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(40, 40, 40)
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(rfc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(40, 40, 40)
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(correo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(40, 40, 40)
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(contraseña, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(40, 40, 40)
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(confirmar_contraseña, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jLabel16)
+                                        .addComponent(iniciarSesion))
+                                .addGap(16, 16, 16))
         );
 
         jPanel1.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, 1100, 630));
@@ -308,14 +311,14 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addComponent(equipoMedico1, javax.swing.GroupLayout.PREFERRED_SIZE, 543, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 657, Short.MAX_VALUE))
+                jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel6Layout.createSequentialGroup()
+                                .addComponent(equipoMedico1, javax.swing.GroupLayout.PREFERRED_SIZE, 543, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 657, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(equipoMedico1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(equipoMedico1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jPanel1.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 770, 1200, 40));
@@ -353,20 +356,20 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addComponent(inicio, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(equipo_Medico, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(preguntas_Frecuentes, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 825, Short.MAX_VALUE))
+                jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel3Layout.createSequentialGroup()
+                                .addComponent(inicio, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(equipo_Medico, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(preguntas_Frecuentes, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 825, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(inicio, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
-            .addComponent(equipo_Medico, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(preguntas_Frecuentes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(inicio, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
+                        .addComponent(equipo_Medico, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(preguntas_Frecuentes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 1200, 30));
@@ -374,12 +377,12 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -418,30 +421,30 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
         String contraseñaText = new String(contraseña.getPassword());
         String confirmarContraseñaText = new String(confirmar_contraseña.getPassword());
         String apellidoMaternoText = apellido_m.getText();
-        String apellidoPaternoText = apellido_p.getText();    
-        if (Nombre.length()==0 || correoText.length()==0 ||contraseñaText.length()==0 || confirmarContraseñaText.length()==0 ||apellidoMaternoText.length()==0 ||apellidoPaternoText.length()==0 ){
-                JOptionPane.showMessageDialog(this, "Rellena todos los campos", "Error", JOptionPane.ERROR_MESSAGE);
-                return;
+        String apellidoPaternoText = apellido_p.getText();
+
+        if (validarCampos(Nombre, correoText, contraseñaText, confirmarContraseñaText, apellidoMaternoText, apellidoPaternoText)) {
+            if (validarCurp(curpText) && validarRFC(rfcText)) {
+                if (!contraseñaText.equals(confirmarContraseñaText)) {
+                    JOptionPane.showMessageDialog(this, "Las contraseñas no coinciden", "Error", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+
+                // Crear el objeto Usuario usando la fábrica
+                String[] datosUsuario = {rfcText, curpText, correoText, contraseñaText, Nombre, apellidoMaternoText, apellidoPaternoText};
+                Usuario usuario = (Usuario) PersonaFactory.crearPersona("usuario", datosUsuario);
+
+                try {
+                    if (RegistrarUsuario.registrar(conn, usuario)) {
+                        Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
+                        iniciar.setVisible(true);
+                        this.setVisible(false);
+                    }
+                } catch (SQLException ex) {
+                    Logger.getLogger(Vista_Registro_Usuario.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
-        if(validarCurp(curpText) && validarRFC(rfcText)){
-            
-            if (!contraseñaText.equals(confirmarContraseñaText)) {
-                JOptionPane.showMessageDialog(this, "Las contraseñas no coinciden", "Error", JOptionPane.ERROR_MESSAGE);
-            return;
-            }
-            
-        // Crear el objeto Usuario si la contraseña coincide
-        Usuario usuario = new Usuario(rfcText, curpText, correoText, contraseñaText, Nombre, apellidoMaternoText, apellidoPaternoText);
-            try {
-            if(RegistrarUsuario.registrar(conn, usuario)){
-                Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
-                iniciar.setVisible(true);
-                this.setVisible(false);
-            }
-            } catch (SQLException ex) {
-                Logger.getLogger(Vista_Registro_Usuario.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        }   
+        }
     }//GEN-LAST:event_RegistrarseMouseClicked
 
     private void iniciarSesionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iniciarSesionMouseClicked
@@ -459,26 +462,28 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
         String contraseñaText = new String(contraseña.getPassword());
         String confirmarContraseñaText = new String(confirmar_contraseña.getPassword());
         String apellidoMaternoText = apellido_m.getText();
-        String apellidoPaternoText = apellido_p.getText();    
-        if (Nombre.length()==0 || correoText.length()==0 ||contraseñaText.length()==0 || confirmarContraseñaText.length()==0 ||apellidoMaternoText.length()==0 ||apellidoPaternoText.length()==0 ){
-                JOptionPane.showMessageDialog(this, "Rellena todos los campos", "Error", JOptionPane.ERROR_MESSAGE);
-                return;
-            }
-        if(validarCurp(curpText) && validarRFC(rfcText)){
-            
+        String apellidoPaternoText = apellido_p.getText();
+        if (Nombre.length() == 0 || correoText.length() == 0 || contraseñaText.length() == 0 || confirmarContraseñaText.length() == 0 || apellidoMaternoText.length() == 0 || apellidoPaternoText.length() == 0) {
+            JOptionPane.showMessageDialog(this, "Rellena todos los campos", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+        if (validarCurp(curpText) && validarRFC(rfcText)) {
+
             if (!contraseñaText.equals(confirmarContraseñaText)) {
                 JOptionPane.showMessageDialog(this, "Las contraseñas no coinciden", "Error", JOptionPane.ERROR_MESSAGE);
-            return;
+                return;
             }
-            
-        // Crear el objeto Usuario si la contraseña coincide
-        Usuario usuario = new Usuario(rfcText, curpText, correoText, contraseñaText, Nombre, apellidoMaternoText, apellidoPaternoText);
+
+            // Crear el objeto Usuario si la contraseña coincide
+            String[] datosUsuario = {rfcText, curpText, correoText, contraseñaText, Nombre, apellidoMaternoText, apellidoPaternoText};
+            Usuario usuario = (Usuario) PersonaFactory.crearPersona("usuario", datosUsuario);
+
             try {
-            if(RegistrarUsuario.registrar(conn, usuario)){
-                Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
-                iniciar.setVisible(true);
-                this.setVisible(false);
-            }
+                if (RegistrarUsuario.registrar(conn, usuario)) {
+                    Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
+                    iniciar.setVisible(true);
+                    this.setVisible(false);
+                }
             } catch (SQLException ex) {
                 Logger.getLogger(Vista_Registro_Usuario.class.getName()).log(Level.SEVERE, null, ex);
             }
@@ -505,83 +510,94 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
         preguntas.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_preguntas_FrecuentesMouseClicked
-    private boolean validarCurp(String curpText){
+
+    private boolean validarCampos(String nombre, String correo, String contraseña, String confirmarContraseña, String apellidoMaterno, String apellidoPaterno) {
+        // Verificar que ningún campo esté vacío
+        if (nombre.isEmpty() || correo.isEmpty() || contraseña.isEmpty()
+                || confirmarContraseña.isEmpty() || apellidoMaterno.isEmpty() || apellidoPaterno.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Todos los campos son obligatorios", "Error", JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+        return true;
+    }
+
+    private boolean validarCurp(String curpText) {
         System.out.println(curpText.length());
-    if(curpText.length()!=18){
+        if (curpText.length() != 18) {
             JOptionPane.showMessageDialog(null, "La curp ingresada es incorrecta");
             System.out.println("total");
             return false;
-    }   else {
-            for(int i=0 ; i<curpText.length();i++){
-                if(i <=3 && curpText.charAt(i)== '0' &&curpText.charAt(i)== '1' &&curpText.charAt(i)== '2'&&curpText.charAt(i)== '3'
-                        &&curpText.charAt(i)== '4' &&curpText.charAt(i)== '5' &&curpText.charAt(i)== '6' &&curpText.charAt(i)== '7'
-                        &&curpText.charAt(i)== '8' &&curpText.charAt(i)== '9' ){
+        } else {
+            for (int i = 0; i < curpText.length(); i++) {
+                if (i <= 3 && curpText.charAt(i) == '0' && curpText.charAt(i) == '1' && curpText.charAt(i) == '2' && curpText.charAt(i) == '3'
+                        && curpText.charAt(i) == '4' && curpText.charAt(i) == '5' && curpText.charAt(i) == '6' && curpText.charAt(i) == '7'
+                        && curpText.charAt(i) == '8' && curpText.charAt(i) == '9') {
                     JOptionPane.showMessageDialog(null, "La curp ingresada es incorrecta");
-                    System.out.println("0 al 3 EN "+i+ " en "+ curpText.charAt(i));
+                    System.out.println("0 al 3 EN " + i + " en " + curpText.charAt(i));
                     return false;
-                }else if(i >= 4 && i<= 9 && curpText.charAt(i)!= '0' &&curpText.charAt(i)!= '1' &&curpText.charAt(i)!= '2'&&curpText.charAt(i)!= '3'
-                        &&curpText.charAt(i)!= '4' &&curpText.charAt(i)!= '5' &&curpText.charAt(i)!= '6' &&curpText.charAt(i)!= '7'
-                        &&curpText.charAt(i)!= '8' &&curpText.charAt(i)!= '9' ){
+                } else if (i >= 4 && i <= 9 && curpText.charAt(i) != '0' && curpText.charAt(i) != '1' && curpText.charAt(i) != '2' && curpText.charAt(i) != '3'
+                        && curpText.charAt(i) != '4' && curpText.charAt(i) != '5' && curpText.charAt(i) != '6' && curpText.charAt(i) != '7'
+                        && curpText.charAt(i) != '8' && curpText.charAt(i) != '9') {
                     JOptionPane.showMessageDialog(null, "La curp ingresada es incorrecta");
-                    System.out.println("4 al 9 EN "+i+ " en "+ curpText.charAt(i));
+                    System.out.println("4 al 9 EN " + i + " en " + curpText.charAt(i));
                     return false;
-                }else if(i >=10 && i<= 16 &&  curpText.charAt(i)== '0' &&curpText.charAt(i)== '1' &&curpText.charAt(i)== '2'&&curpText.charAt(i)== '3'
-                        &&curpText.charAt(i)== '4' &&curpText.charAt(i)== '5' &&curpText.charAt(i)== '6' &&curpText.charAt(i)== '7'
-                        &&curpText.charAt(i)== '8' &&curpText.charAt(i)== '9' ){
+                } else if (i >= 10 && i <= 16 && curpText.charAt(i) == '0' && curpText.charAt(i) == '1' && curpText.charAt(i) == '2' && curpText.charAt(i) == '3'
+                        && curpText.charAt(i) == '4' && curpText.charAt(i) == '5' && curpText.charAt(i) == '6' && curpText.charAt(i) == '7'
+                        && curpText.charAt(i) == '8' && curpText.charAt(i) == '9') {
                     JOptionPane.showMessageDialog(null, "La curp ingresada es incorrecta");
-                    System.out.println("10 al 16 EN "+i+ " en "+ curpText.charAt(i));
+                    System.out.println("10 al 16 EN " + i + " en " + curpText.charAt(i));
                     return false;
-                } else if(i ==17 &&  curpText.charAt(i)!= '0' &&curpText.charAt(i)!= '1' &&curpText.charAt(i)!= '2'&&curpText.charAt(i)!= '3'
-                        &&curpText.charAt(i)!= '4' &&curpText.charAt(i)!= '5' &&curpText.charAt(i)!= '6' &&curpText.charAt(i)!= '7'
-                        &&curpText.charAt(i)!= '8' &&curpText.charAt(i)!= '9' ){
+                } else if (i == 17 && curpText.charAt(i) != '0' && curpText.charAt(i) != '1' && curpText.charAt(i) != '2' && curpText.charAt(i) != '3'
+                        && curpText.charAt(i) != '4' && curpText.charAt(i) != '5' && curpText.charAt(i) != '6' && curpText.charAt(i) != '7'
+                        && curpText.charAt(i) != '8' && curpText.charAt(i) != '9') {
                     JOptionPane.showMessageDialog(null, "La curp ingresada es incorrecta");
-                    System.out.println("17 EN "+i+ " en "+ curpText.charAt(i));
+                    System.out.println("17 EN " + i + " en " + curpText.charAt(i));
                     return false;
                 }
             }
         }
-    return true;
+        return true;
     }
-    private boolean validarRFC(String rfcText){
-    if(rfcText.length()!=13){
+
+    private boolean validarRFC(String rfcText) {
+        if (rfcText.length() != 13) {
             JOptionPane.showMessageDialog(null, "La rfc ingresada es incorrecta");
             System.out.println("total");
             return false;
-    }   else {
-            for(int i=0 ; i<rfcText.length();i++){
-                if(i <=3 && rfcText.charAt(i)== '0' &&rfcText.charAt(i)== '1' &&rfcText.charAt(i)== '2'&&rfcText.charAt(i)== '3'
-                        &&rfcText.charAt(i)== '4' &&rfcText.charAt(i)== '5' &&rfcText.charAt(i)== '6' &&rfcText.charAt(i)== '7'
-                        &&rfcText.charAt(i)== '8' &&rfcText.charAt(i)== '9'){
+        } else {
+            for (int i = 0; i < rfcText.length(); i++) {
+                if (i <= 3 && rfcText.charAt(i) == '0' && rfcText.charAt(i) == '1' && rfcText.charAt(i) == '2' && rfcText.charAt(i) == '3'
+                        && rfcText.charAt(i) == '4' && rfcText.charAt(i) == '5' && rfcText.charAt(i) == '6' && rfcText.charAt(i) == '7'
+                        && rfcText.charAt(i) == '8' && rfcText.charAt(i) == '9') {
                     JOptionPane.showMessageDialog(null, "La rfc ingresada es incorrecta");
-                    System.out.println("0 al 3 EN "+i+ " en "+ rfcText.charAt(i));
+                    System.out.println("0 al 3 EN " + i + " en " + rfcText.charAt(i));
                     return false;
-                }else if(i >= 4 && i<= 9 && rfcText.charAt(i)!= '0' &&rfcText.charAt(i)!= '1' &&rfcText.charAt(i)!= '2'&&rfcText.charAt(i)!= '3'
-                        &&rfcText.charAt(i)!= '4' &&rfcText.charAt(i)!= '5' &&rfcText.charAt(i)!= '6' &&rfcText.charAt(i)!= '7'
-                        &&rfcText.charAt(i)!= '8' &&rfcText.charAt(i)!= '9'){
+                } else if (i >= 4 && i <= 9 && rfcText.charAt(i) != '0' && rfcText.charAt(i) != '1' && rfcText.charAt(i) != '2' && rfcText.charAt(i) != '3'
+                        && rfcText.charAt(i) != '4' && rfcText.charAt(i) != '5' && rfcText.charAt(i) != '6' && rfcText.charAt(i) != '7'
+                        && rfcText.charAt(i) != '8' && rfcText.charAt(i) != '9') {
                     JOptionPane.showMessageDialog(null, "La rfc ingresada es incorrecta");
-                    System.out.println("4 al 9 EN "+i+ " en "+ rfcText.charAt(i));
+                    System.out.println("4 al 9 EN " + i + " en " + rfcText.charAt(i));
                     return false;
-                }else if(i >=10 && i<= 11 && rfcText.charAt(i)== '0' &&rfcText.charAt(i)== '1' &&rfcText.charAt(i)== '2'&&rfcText.charAt(i)== '3'
-                        &&rfcText.charAt(i)== '4' &&rfcText.charAt(i)== '5' &&rfcText.charAt(i)== '6' &&rfcText.charAt(i)== '7'
-                        &&rfcText.charAt(i)== '8' &&rfcText.charAt(i)== '9'){
+                } else if (i >= 10 && i <= 11 && rfcText.charAt(i) == '0' && rfcText.charAt(i) == '1' && rfcText.charAt(i) == '2' && rfcText.charAt(i) == '3'
+                        && rfcText.charAt(i) == '4' && rfcText.charAt(i) == '5' && rfcText.charAt(i) == '6' && rfcText.charAt(i) == '7'
+                        && rfcText.charAt(i) == '8' && rfcText.charAt(i) == '9') {
                     JOptionPane.showMessageDialog(null, "La rfc ingresada es incorrecta");
-                    System.out.println("10 al 11 EN "+i+ " en "+ rfcText.charAt(i));
+                    System.out.println("10 al 11 EN " + i + " en " + rfcText.charAt(i));
                     return false;
-                } else if(i ==12 && rfcText.charAt(i)!= '0' &&rfcText.charAt(i)!= '1' &&rfcText.charAt(i)!= '2'&&rfcText.charAt(i)!= '3'
-                        &&rfcText.charAt(i)!= '4' &&rfcText.charAt(i)!= '5' &&rfcText.charAt(i)!= '6' &&rfcText.charAt(i)!= '7'
-                        &&rfcText.charAt(i)!= '8' &&rfcText.charAt(i)!= '9'){
+                } else if (i == 12 && rfcText.charAt(i) != '0' && rfcText.charAt(i) != '1' && rfcText.charAt(i) != '2' && rfcText.charAt(i) != '3'
+                        && rfcText.charAt(i) != '4' && rfcText.charAt(i) != '5' && rfcText.charAt(i) != '6' && rfcText.charAt(i) != '7'
+                        && rfcText.charAt(i) != '8' && rfcText.charAt(i) != '9') {
                     JOptionPane.showMessageDialog(null, "La rfc ingresada es incorrecta");
-                    System.out.println("12 EN "+i+ " en "+ rfcText.charAt(i));
+                    System.out.println("12 EN " + i + " en " + rfcText.charAt(i));
                     return false;
                 }
             }
         }
-    return true;
+        return true;
     }
     /**
      * @param args the command line arguments
      */
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Registrarse;

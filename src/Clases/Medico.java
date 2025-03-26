@@ -3,17 +3,29 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Clases;
+<<<<<<< HEAD
 public class Medico implements Cloneable {
+=======
+
+public class Medico {
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     private int id;
     private String nombre;
     private String especialidad;
     private String correo;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     public Medico(int id, String nombre, String especialidad, String correo) {
         this.id = id;
         this.nombre = nombre;
         this.especialidad = especialidad;
+<<<<<<< HEAD
         this.correo = correo;
+=======
+        this.correo=correo;
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     }
 
     public int getId() {
@@ -36,6 +48,7 @@ public class Medico implements Cloneable {
         return especialidad;
     }
 
+<<<<<<< HEAD
     // Implementación del patrón Prototype
     @Override
     public Medico clone() {
@@ -46,10 +59,15 @@ public class Medico implements Cloneable {
         }
     }
 
+=======
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     @Override
     public String toString() {
         return nombre + " (" + especialidad + ")";
     }
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf

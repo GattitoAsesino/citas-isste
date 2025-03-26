@@ -410,6 +410,7 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
     }//GEN-LAST:event_correoActionPerformed
 
     private void RegistrarseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RegistrarseMouseClicked
+<<<<<<< HEAD
         // TODO add your handling code here:                                                                      
     String rfcText = rfc.getText();
     String curpText = curp.getText();
@@ -450,15 +451,48 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
                     System.err.println("Error al registrar el usuario clonado.");
                 }
 
+=======
+        // TODO add your handling code here:
+        String rfcText = rfc.getText();
+        String curpText = curp.getText();
+        String Nombre = nombre.getText();
+        String correoText = correo.getText();
+        String contraseñaText = new String(contraseña.getPassword());
+        String confirmarContraseñaText = new String(confirmar_contraseña.getPassword());
+        String apellidoMaternoText = apellido_m.getText();
+        String apellidoPaternoText = apellido_p.getText();    
+        if (Nombre.length()==0 || correoText.length()==0 ||contraseñaText.length()==0 || confirmarContraseñaText.length()==0 ||apellidoMaternoText.length()==0 ||apellidoPaternoText.length()==0 ){
+                JOptionPane.showMessageDialog(this, "Rellena todos los campos", "Error", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+        if(validarCurp(curpText) && validarRFC(rfcText)){
+            
+            if (!contraseñaText.equals(confirmarContraseñaText)) {
+                JOptionPane.showMessageDialog(this, "Las contraseñas no coinciden", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+            }
+            
+        // Crear el objeto Usuario si la contraseña coincide
+        Usuario usuario = new Usuario(rfcText, curpText, correoText, contraseñaText, Nombre, apellidoMaternoText, apellidoPaternoText);
+            try {
+            if(RegistrarUsuario.registrar(conn, usuario)){
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
                 Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
                 iniciar.setVisible(true);
                 this.setVisible(false);
             }
+<<<<<<< HEAD
         } catch (SQLException ex) {
             Logger.getLogger(Vista_Registro_Usuario.class.getName()).log(Level.SEVERE, null, ex);
         }
       
 
+=======
+            } catch (SQLException ex) {
+                Logger.getLogger(Vista_Registro_Usuario.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }   
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     }//GEN-LAST:event_RegistrarseMouseClicked
 
     private void iniciarSesionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iniciarSesionMouseClicked

@@ -4,6 +4,7 @@
  */
 package Clases;
 
+<<<<<<< HEAD
 public class Usuario implements Cloneable {
     private String rfc, curp, correo, contraseña, nombre, apellidoMaterno, apellidoPaterno, tipo;
     private int id;
@@ -18,6 +19,15 @@ public class Usuario implements Cloneable {
         this.apellidoPaterno = apellidoPaterno;
     }
 
+=======
+/**
+ *
+ * @author crist
+ */
+public class Usuario {
+    private String  rfc, curp, correo, contraseña, nombre, apellidoMaterno, apellidoPaterno, tipo;
+    private int id;
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     public int getId() {
         return id;
     }
@@ -30,6 +40,19 @@ public class Usuario implements Cloneable {
         this.tipo = tipo;
     }
 
+<<<<<<< HEAD
+=======
+    public Usuario(String rfc, String curp, String correo, String contraseña, String nombre, String apellidoMaterno, String apellidoPaterno) {
+        this.rfc = rfc;
+        this.curp = curp;
+        this.correo = correo;
+        this.contraseña = contraseña;
+        this.nombre = nombre;
+        this.apellidoMaterno = apellidoMaterno;
+        this.apellidoPaterno = apellidoPaterno;
+    }
+
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     public String getTipo() {
         return tipo;
     }
@@ -89,6 +112,7 @@ public class Usuario implements Cloneable {
     public void setApellidoPaterno(String apellidoPaterno) {
         this.apellidoPaterno = apellidoPaterno;
     }
+<<<<<<< HEAD
 
     // Implementación del patrón Prototype
     @Override
@@ -112,3 +136,7 @@ public class Usuario implements Cloneable {
 }
 
 
+=======
+    
+}
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf

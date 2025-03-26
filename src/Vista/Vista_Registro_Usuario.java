@@ -4,7 +4,10 @@
  */
 package Vista;
 import Clases.Usuario;
+<<<<<<< HEAD
 import Modelo.FacadeAutenticacion;
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
 import Modelo.RegistrarUsuario;
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -433,11 +436,23 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
             
         // Crear el objeto Usuario si la contraseña coincide
         Usuario usuario = new Usuario(rfcText, curpText, correoText, contraseñaText, Nombre, apellidoMaternoText, apellidoPaternoText);
+<<<<<<< HEAD
         if(FacadeAutenticacion.registrar(conn, usuario)){
             Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
             iniciar.setVisible(true);
             this.setVisible(false);
         }
+=======
+            try {
+            if(RegistrarUsuario.registrar(conn, usuario)){
+                Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
+                iniciar.setVisible(true);
+                this.setVisible(false);
+            }
+            } catch (SQLException ex) {
+                Logger.getLogger(Vista_Registro_Usuario.class.getName()).log(Level.SEVERE, null, ex);
+            }
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
         }   
     }//GEN-LAST:event_RegistrarseMouseClicked
 
@@ -470,11 +485,23 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
             
         // Crear el objeto Usuario si la contraseña coincide
         Usuario usuario = new Usuario(rfcText, curpText, correoText, contraseñaText, Nombre, apellidoMaternoText, apellidoPaternoText);
+<<<<<<< HEAD
         if(FacadeAutenticacion.registrar(conn, usuario)){
             Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
             iniciar.setVisible(true);
             this.setVisible(false);
         }
+=======
+            try {
+            if(RegistrarUsuario.registrar(conn, usuario)){
+                Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
+                iniciar.setVisible(true);
+                this.setVisible(false);
+            }
+            } catch (SQLException ex) {
+                Logger.getLogger(Vista_Registro_Usuario.class.getName()).log(Level.SEVERE, null, ex);
+            }
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
         }
     }//GEN-LAST:event_confirmar_contraseñaActionPerformed
 

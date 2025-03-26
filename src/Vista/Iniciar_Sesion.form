@@ -157,7 +157,11 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Registrate"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+<<<<<<< HEAD
                   <Color id="Cursor Por defecto"/>
+=======
+                  <Color id="Hand Cursor"/>
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
                 </Property>
               </Properties>
               <Events>
@@ -223,7 +227,11 @@
                         <Property name="horizontalAlignment" type="int" value="0"/>
                         <Property name="text" type="java.lang.String" value="Iniciar Sesi&#xf3;n"/>
                         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+<<<<<<< HEAD
                           <Color id="Cursor Por defecto"/>
+=======
+                          <Color id="Hand Cursor"/>
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
                         </Property>
                       </Properties>
                       <Events>
@@ -366,7 +374,11 @@
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="Dudas y contacto: atencionciudadana@issste.gob.mx o al 55-4000-1000"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+<<<<<<< HEAD
                   <Color id="Cursor Por defecto"/>
+=======
+                  <Color id="Hand Cursor"/>
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
                 </Property>
               </Properties>
             </Component>
@@ -409,7 +421,11 @@
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="Inicio"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+<<<<<<< HEAD
                   <Color id="Cursor Por defecto"/>
+=======
+                  <Color id="Hand Cursor"/>
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
                 </Property>
               </Properties>
               <Events>
@@ -424,7 +440,11 @@
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="Equipo M&#xe9;dico"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+<<<<<<< HEAD
                   <Color id="Cursor Por defecto"/>
+=======
+                  <Color id="Hand Cursor"/>
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
                 </Property>
               </Properties>
               <Events>
@@ -439,7 +459,11 @@
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="Preguntas Frecuentes"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+<<<<<<< HEAD
                   <Color id="Cursor Por defecto"/>
+=======
+                  <Color id="Hand Cursor"/>
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
                 </Property>
               </Properties>
               <Events>

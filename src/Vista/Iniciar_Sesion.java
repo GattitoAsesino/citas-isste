@@ -6,7 +6,10 @@ package Vista;
 import VistaUsuario.Inicio_Usuario;
 import Modelo.Sesion;
 import Clases.Usuario;
+<<<<<<< HEAD
 import Modelo.FacadeAutenticacion;
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
 import Vista_Doctor.Vista_Doctor;
 import java.sql.Connection;
 import javax.swing.JOptionPane;
@@ -339,7 +342,11 @@ public class Iniciar_Sesion extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Rellena todos los campos", "Error", JOptionPane.ERROR_MESSAGE);
                 return;
         }else{
+<<<<<<< HEAD
             Usuario usuario = FacadeAutenticacion.iniciarSesion(conn,correoText,contraseñaText);
+=======
+            Usuario usuario = Sesion.iniciarSesion(conn,correoText,contraseñaText);
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
             if (usuario==null){
                 JOptionPane.showMessageDialog(this, "El usuario y/o contraseña son incorrectos", "Error", JOptionPane.ERROR_MESSAGE);
                 return;
@@ -374,7 +381,11 @@ public class Iniciar_Sesion extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Rellena todos los campos", "Error", JOptionPane.ERROR_MESSAGE);
                 return;
         }else{
+<<<<<<< HEAD
             Usuario usuario = FacadeAutenticacion.iniciarSesion(conn,correoText,contraseñaText);
+=======
+            Usuario usuario = Sesion.iniciarSesion(conn,correoText,contraseñaText);
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
             if (usuario==null){
                 JOptionPane.showMessageDialog(this, "El usuario y/o contraseña son incorrectos", "Error", JOptionPane.ERROR_MESSAGE);
                 return;

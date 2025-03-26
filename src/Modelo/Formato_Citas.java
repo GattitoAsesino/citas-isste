@@ -3,7 +3,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Modelo;
+<<<<<<< HEAD
 import Clases.Cita;
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
 import javax.swing.*;
 import java.sql.*;
 import java.util.ArrayList;
@@ -123,7 +126,11 @@ public class Formato_Citas {
     return nombre1;
 }
 
+<<<<<<< HEAD
     public static void cambiarEstadoCita(Connection conn, int idCita, int idAfiliado, String nombreAfiliado, String fechaAgendada, String horaAgendada, String doctorAsignado, String fechaCita, String horaCita, String consultorio, String tipo,int idMedico, Cita cita) {
+=======
+    public static void cambiarEstadoCita(Connection conn, int idCita, int idAfiliado, String nombreAfiliado, String fechaAgendada, String horaAgendada, String doctorAsignado, String fechaCita, String horaCita, String consultorio, String tipo,int idMedico) {
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
     try {
         boolean captura;
         captura = ControladorVista_Historial_De_Citas.ultimaCitaYaPaso(conn, tipo,idAfiliado+"");

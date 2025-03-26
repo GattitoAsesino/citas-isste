@@ -3,8 +3,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package VistaUsuario;
+<<<<<<< HEAD
 import Clases.Cita;
 import Clases.CitaBuilder;
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
 import Vista.Vista_Principal;
 import java.sql.Connection;
 import Clases.Usuario;
@@ -468,6 +471,7 @@ public class AgendarCita extends javax.swing.JFrame {
         // Formatear la fecha y la hora como cadenas de texto
         String fechaActual = now.format(dateFormatter);
         String horaActual = now.format(timeFormatter);
+<<<<<<< HEAD
         Cita cita = new CitaBuilder()
                         .setId(idCita)
                         .setIdPaciente(user.getId())
@@ -479,6 +483,9 @@ public class AgendarCita extends javax.swing.JFrame {
                         .setDisponible(false)
                         .build();
         Formato_Citas.cambiarEstadoCita(conn, idCita, user.getId(),user.getNombre(),fechaActual,horaActual,nomDoc,fecha,hora,consultorio,tipo1,idMedico,cita);
+=======
+        Formato_Citas.cambiarEstadoCita(conn, idCita, user.getId(),user.getNombre(),fechaActual,horaActual,nomDoc,fecha,hora,consultorio,tipo1,idMedico);
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
         Inicio_Usuario ho = new Inicio_Usuario(user,conn);
         this.setVisible(false);
         ho.setVisible(true);

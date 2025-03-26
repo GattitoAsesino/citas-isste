@@ -453,6 +453,7 @@ public class Realizar_Informe extends javax.swing.JFrame {
         Calendario hist = new Calendario(conn, user);
         hist.setVisible(true);
     }//GEN-LAST:event_historialCitasMouseClicked
+<<<<<<< HEAD
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -908,6 +909,8 @@ public class Realizar_Informe extends javax.swing.JFrame {
         Calendario hist = new Calendario(conn, user);
         hist.setVisible(true);
     }                                           
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JComboBox<String> Fecha;

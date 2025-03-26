@@ -4,10 +4,14 @@
  */
 package Vista;
 import VistaUsuario.Inicio_Usuario;
+<<<<<<< HEAD
 import Modelo.Autenticacion;
 import Modelo.AutenticacionGoogle;
 import Modelo.AutenticacionAdapter;
 import Modelo.SesionSQL;
+=======
+import Modelo.Sesion;
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
 import Clases.Usuario;
 import Vista_Doctor.Vista_Doctor;
 import java.sql.Connection;
@@ -22,11 +26,15 @@ public class Iniciar_Sesion extends javax.swing.JFrame {
     /**
      * Creates new form IniciarSesión
      */
+<<<<<<< HEAD
      private boolean usarAutenticacionTradicional = true;
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
     public Iniciar_Sesion(Connection conn) {
         initComponents();
         this.conn = conn;
     }
+<<<<<<< HEAD
 private void toggleAutenticacion() {
     usarAutenticacionTradicional = !usarAutenticacionTradicional;
     if (usarAutenticacionTradicional) {
@@ -35,6 +43,9 @@ private void toggleAutenticacion() {
         JOptionPane.showMessageDialog(this, "Modo: Autenticación con Google");
     }
 }
+=======
+
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -53,7 +64,10 @@ private void toggleAutenticacion() {
         jPanel6 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         iniciar_Sesion = new javax.swing.JLabel();
+<<<<<<< HEAD
         toggleAuthButton = new javax.swing.JToggleButton();
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
         jPanel7 = new javax.swing.JPanel();
         correo = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
@@ -137,6 +151,7 @@ private void toggleAutenticacion() {
             .addComponent(iniciar_Sesion, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
         );
 
+<<<<<<< HEAD
         toggleAuthButton.setBackground(new java.awt.Color(102, 153, 255));
         toggleAuthButton.setText("CambiarMetodo");
         toggleAuthButton.addActionListener(new java.awt.event.ActionListener() {
@@ -145,24 +160,36 @@ private void toggleAutenticacion() {
             }
         });
 
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addGap(329, 329, 329)
                 .addComponent(toggleAuthButton)
                 .addGap(40, 40, 40)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(474, Short.MAX_VALUE))
+=======
+                .addGap(480, 480, 480)
+                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
+<<<<<<< HEAD
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(toggleAuthButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
                 .addContainerGap())
         );
 
@@ -244,9 +271,15 @@ private void toggleAutenticacion() {
                 .addComponent(Registrarse)
                 .addGap(422, 422, 422))
             .addGroup(jPanel5Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addGap(261, 261, 261)
                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(229, Short.MAX_VALUE))
+=======
+                .addGap(245, 245, 245)
+                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(245, Short.MAX_VALUE))
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
             .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
@@ -356,6 +389,7 @@ private void toggleAutenticacion() {
 
     private void iniciar_SesionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iniciar_SesionMouseClicked
         // TODO add your handling code here:
+<<<<<<< HEAD
       String credencial1 = correo.getText();
     String credencial2 = new String(contraseña.getPassword());
 
@@ -391,6 +425,31 @@ private void toggleAutenticacion() {
         Vista_Doctor inicio = new Vista_Doctor(usuario, conn);
         inicio.setVisible(true);
     }        
+=======
+        String correoText = correo.getText();
+        String contraseñaText = new String(contraseña.getPassword());
+        if(correoText.isEmpty() || contraseñaText.isEmpty()){
+            JOptionPane.showMessageDialog(this, "Rellena todos los campos", "Error", JOptionPane.ERROR_MESSAGE);
+                return;
+        }else{
+            Usuario usuario = Sesion.iniciarSesion(conn,correoText,contraseñaText);
+            if (usuario==null){
+                JOptionPane.showMessageDialog(this, "El usuario y/o contraseña son incorrectos", "Error", JOptionPane.ERROR_MESSAGE);
+                return;
+            }else if(usuario.getTipo().equals("usuario")){
+                JOptionPane.showMessageDialog(null,"Ha iniciado sesion");
+                this.setVisible(false);
+                Inicio_Usuario inicio = new Inicio_Usuario(usuario,conn);
+                inicio.setVisible(true);
+            } else if(usuario.getTipo().equals("medico_general")){
+                JOptionPane.showMessageDialog(null,"Ha iniciado sesion");
+                this.setVisible(false);
+                Vista_Doctor inicio = new Vista_Doctor(usuario,conn);
+                inicio.setVisible(true);
+            
+            }
+        }        
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
     }//GEN-LAST:event_iniciar_SesionMouseClicked
 
     private void RegistrarseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RegistrarseMouseClicked
@@ -409,8 +468,12 @@ private void toggleAutenticacion() {
             JOptionPane.showMessageDialog(this, "Rellena todos los campos", "Error", JOptionPane.ERROR_MESSAGE);
                 return;
         }else{
+<<<<<<< HEAD
 Autenticacion autenticacion = new SesionSQL(conn); // Crea una instancia de SesionSQL
 Usuario usuario = autenticacion.autenticar(correoText, contraseñaText); // Usa el método autenticar
+=======
+            Usuario usuario = Sesion.iniciarSesion(conn,correoText,contraseñaText);
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
             if (usuario==null){
                 JOptionPane.showMessageDialog(this, "El usuario y/o contraseña son incorrectos", "Error", JOptionPane.ERROR_MESSAGE);
                 return;
@@ -444,10 +507,13 @@ Usuario usuario = autenticacion.autenticar(correoText, contraseñaText); // Usa 
         this.setVisible(false);
     }//GEN-LAST:event_preguntas_FrecuentesMouseClicked
 
+<<<<<<< HEAD
     private void toggleAuthButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_toggleAuthButtonActionPerformed
  toggleAutenticacion();        // TODO add your handling code here:
     }//GEN-LAST:event_toggleAuthButtonActionPerformed
 
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Registrarse;
     private javax.swing.JPasswordField contraseña;
@@ -470,6 +536,9 @@ Usuario usuario = autenticacion.autenticar(correoText, contraseñaText); // Usa 
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JLabel preguntas_Frecuentes;
+<<<<<<< HEAD
     private javax.swing.JToggleButton toggleAuthButton;
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
     // End of variables declaration//GEN-END:variables
 }

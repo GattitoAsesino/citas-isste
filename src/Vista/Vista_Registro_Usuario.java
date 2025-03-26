@@ -4,6 +4,13 @@
  */
 package Vista;
 import Clases.Usuario;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+import Modelo.FacadeAutenticacion;
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
+>>>>>>> 81ff1a1d08283a68c3df382084c707dd485ef697
 import Modelo.RegistrarUsuario;
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -432,6 +439,16 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
             
         // Crear el objeto Usuario si la contraseña coincide
         Usuario usuario = new Usuario(rfcText, curpText, correoText, contraseñaText, Nombre, apellidoMaternoText, apellidoPaternoText);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        if(FacadeAutenticacion.registrar(conn, usuario)){
+            Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
+            iniciar.setVisible(true);
+            this.setVisible(false);
+        }
+=======
+>>>>>>> 81ff1a1d08283a68c3df382084c707dd485ef697
             try {
             if(RegistrarUsuario.registrar(conn, usuario)){
                 Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
@@ -441,6 +458,10 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
             } catch (SQLException ex) {
                 Logger.getLogger(Vista_Registro_Usuario.class.getName()).log(Level.SEVERE, null, ex);
             }
+<<<<<<< HEAD
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
+>>>>>>> 81ff1a1d08283a68c3df382084c707dd485ef697
         }   
     }//GEN-LAST:event_RegistrarseMouseClicked
 
@@ -473,6 +494,16 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
             
         // Crear el objeto Usuario si la contraseña coincide
         Usuario usuario = new Usuario(rfcText, curpText, correoText, contraseñaText, Nombre, apellidoMaternoText, apellidoPaternoText);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        if(FacadeAutenticacion.registrar(conn, usuario)){
+            Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
+            iniciar.setVisible(true);
+            this.setVisible(false);
+        }
+=======
+>>>>>>> 81ff1a1d08283a68c3df382084c707dd485ef697
             try {
             if(RegistrarUsuario.registrar(conn, usuario)){
                 Iniciar_Sesion iniciar = new Iniciar_Sesion(conn);
@@ -482,6 +513,10 @@ public class Vista_Registro_Usuario extends javax.swing.JFrame {
             } catch (SQLException ex) {
                 Logger.getLogger(Vista_Registro_Usuario.class.getName()).log(Level.SEVERE, null, ex);
             }
+<<<<<<< HEAD
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
+>>>>>>> 81ff1a1d08283a68c3df382084c707dd485ef697
         }
     }//GEN-LAST:event_confirmar_contraseñaActionPerformed
 

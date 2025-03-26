@@ -3,7 +3,15 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+<<<<<<< HEAD
             <name>ISSSTE_AGIL</name>
+=======
+<<<<<<< HEAD
+            <name>ISSSTE_AGIL_FACADE</name>
+=======
+            <name>ISSSTE_AGIL</name>
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
+>>>>>>> 81ff1a1d08283a68c3df382084c707dd485ef697
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>

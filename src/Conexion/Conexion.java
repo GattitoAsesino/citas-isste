@@ -15,11 +15,24 @@ import javax.swing.JOptionPane;
 public class Conexion {
     Connection conectar;
     String usuario = "root";
+<<<<<<< HEAD
     String contrasenia = "12345";
     String bd = "issste";
     String ip = "localhost";
     String puerto = "3306";
     String cadena = "jdbc:mysql://"+ip+":"+puerto+"/"+bd+"?serverTimezone=America/Mexico_City";
+=======
+<<<<<<< HEAD
+    String contrasenia = "2000";
+    String bd = "ISSSTE_AGIL";
+=======
+    String contrasenia = "issste";
+    String bd = "issste";
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
+    String ip = "localhost";
+    String puerto = "3306";
+    String cadena = "jdbc:mysql://"+ip+":"+puerto+"/"+bd;
+>>>>>>> 81ff1a1d08283a68c3df382084c707dd485ef697
     
     public Connection estableceConexion(){
         try{

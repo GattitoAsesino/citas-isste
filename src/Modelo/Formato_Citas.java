@@ -3,6 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Modelo;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+import Clases.Cita;
+=======
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
+>>>>>>> 81ff1a1d08283a68c3df382084c707dd485ef697
 import javax.swing.*;
 import java.sql.*;
 import java.util.ArrayList;
@@ -122,7 +129,15 @@ public class Formato_Citas {
     return nombre1;
 }
 
+<<<<<<< HEAD
     public static void cambiarEstadoCita(Connection conn, int idCita, int idAfiliado, String nombreAfiliado, String fechaAgendada, String horaAgendada, String doctorAsignado, String fechaCita, String horaCita, String consultorio, String tipo,int idMedico) {
+=======
+<<<<<<< HEAD
+    public static void cambiarEstadoCita(Connection conn, int idCita, int idAfiliado, String nombreAfiliado, String fechaAgendada, String horaAgendada, String doctorAsignado, String fechaCita, String horaCita, String consultorio, String tipo,int idMedico, Cita cita) {
+=======
+    public static void cambiarEstadoCita(Connection conn, int idCita, int idAfiliado, String nombreAfiliado, String fechaAgendada, String horaAgendada, String doctorAsignado, String fechaCita, String horaCita, String consultorio, String tipo,int idMedico) {
+>>>>>>> 6118f81ec0f4b599572035f386ef92f2ab5b4abe
+>>>>>>> 81ff1a1d08283a68c3df382084c707dd485ef697
     try {
         boolean captura;
         captura = ControladorVista_Historial_De_Citas.ultimaCitaYaPaso(conn, tipo,idAfiliado+"");

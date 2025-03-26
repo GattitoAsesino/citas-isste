@@ -4,7 +4,10 @@
  */
 package Vista;
 
+<<<<<<< HEAD
 import Clases.ComponenteHospital;
+=======
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
 import Clases.Medico;
 import Modelo.Registrar_Informe;
 import java.awt.Image;
@@ -22,11 +25,16 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author crist
  */
+<<<<<<< HEAD
 public class Equipo_Medico extends javax.swing.JFrame implements ComponenteHospital{
     private Connection conn;
     // Atributo que almacena los componentes del equipo
     private List<ComponenteHospital> miembros = new ArrayList<>(); 
 
+=======
+public class Equipo_Medico extends javax.swing.JFrame {
+    private Connection conn;
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     /**
      * Creates new form Equipo_Medico
      */
@@ -336,7 +344,11 @@ public class Equipo_Medico extends javax.swing.JFrame implements ComponenteHospi
 
     private void RegistrarseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RegistrarseMouseClicked
         // TODO add your handling code here:
+<<<<<<< HEAD
         Vista_Registro_Grupo registroU = new Vista_Registro_Grupo(conn);
+=======
+        Vista_Registro_Usuario registroU = new Vista_Registro_Usuario(conn);
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
         registroU.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_RegistrarseMouseClicked
@@ -486,7 +498,10 @@ public class Equipo_Medico extends javax.swing.JFrame implements ComponenteHospi
         }
         return opiniones;
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel IniciarSesion;
@@ -512,6 +527,7 @@ public class Equipo_Medico extends javax.swing.JFrame implements ComponenteHospi
     private javax.swing.JComboBox<Medico> medicoComboBox;
     private javax.swing.JLabel preguntas_Frecuentes;
     // End of variables declaration//GEN-END:variables
+<<<<<<< HEAD
 
     @Override
     public void mostrarInformacion() {
@@ -529,4 +545,6 @@ public class Equipo_Medico extends javax.swing.JFrame implements ComponenteHospi
     public List<ComponenteHospital> getSubordinados() {
         return null;
     }
+=======
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
 }

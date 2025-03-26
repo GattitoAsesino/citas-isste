@@ -4,6 +4,7 @@
  */
 package Clases;
 
+<<<<<<< HEAD
 import java.util.Collections;
 import java.util.List;
 
@@ -25,6 +26,15 @@ public class Usuario implements ComponenteHospital {
         this.apellidoPaterno = apellidoPaterno;
     }
     
+=======
+/**
+ *
+ * @author crist
+ */
+public class Usuario {
+    private String  rfc, curp, correo, contraseña, nombre, apellidoMaterno, apellidoPaterno, tipo;
+    private int id;
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     public int getId() {
         return id;
     }
@@ -36,7 +46,21 @@ public class Usuario implements ComponenteHospital {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+<<<<<<< HEAD
     
+=======
+
+    public Usuario(String rfc, String curp, String correo, String contraseña, String nombre, String apellidoMaterno, String apellidoPaterno) {
+        this.rfc = rfc;
+        this.curp = curp;
+        this.correo = correo;
+        this.contraseña = contraseña;
+        this.nombre = nombre;
+        this.apellidoMaterno = apellidoMaterno;
+        this.apellidoPaterno = apellidoPaterno;
+    }
+
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     public String getTipo() {
         return tipo;
     }
@@ -97,6 +121,7 @@ public class Usuario implements ComponenteHospital {
         this.apellidoPaterno = apellidoPaterno;
     }
     
+<<<<<<< HEAD
     @Override
     public void mostrarInformacion() {
         System.out.println("Usuario: " + nombre + " " + apellidoPaterno + " - RFC: " + rfc);
@@ -117,3 +142,6 @@ public class Usuario implements ComponenteHospital {
         return Collections.emptyList(); // No tiene subordinados
     }
 }
+=======
+}
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf

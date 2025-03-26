@@ -329,6 +329,12 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
+<<<<<<< HEAD
+=======
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\crist\OneDrive\Documentos\Lisandro\6to semestre\Ingenieria de software\ISSSTE_AGIL\build\classes\Imagenes\Screenshot 2024-06-02 211002.png"/>
+            </Property>
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
             <Property name="text" type="java.lang.String" value="       "/>
           </Properties>
           <Constraints>
@@ -339,6 +345,12 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
+<<<<<<< HEAD
+=======
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\crist\OneDrive\Documentos\Lisandro\6to semestre\Ingenieria de software\ISSSTE_AGIL\build\classes\Imagenes\sede-issste-merida (1).jpg"/>
+            </Property>
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
             <Property name="text" type="java.lang.String" value=" "/>
           </Properties>
           <Constraints>

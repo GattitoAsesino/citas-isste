@@ -221,9 +221,17 @@ public class Vista_Principal extends javax.swing.JFrame {
         jLabel2.setText("VISIÓN");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 420, -1, -1));
 
+<<<<<<< HEAD
         jLabel3.setText("       ");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 290, 210));
 
+=======
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\crist\\OneDrive\\Documentos\\Lisandro\\6to semestre\\Ingenieria de software\\ISSSTE_AGIL\\build\\classes\\Imagenes\\Screenshot 2024-06-02 211002.png")); // NOI18N
+        jLabel3.setText("       ");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 290, 210));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\crist\\OneDrive\\Documentos\\Lisandro\\6to semestre\\Ingenieria de software\\ISSSTE_AGIL\\build\\classes\\Imagenes\\sede-issste-merida (1).jpg")); // NOI18N
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
         jLabel6.setText(" ");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 450, 350, 290));
 

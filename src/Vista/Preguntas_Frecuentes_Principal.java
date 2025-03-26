@@ -266,7 +266,11 @@ public class Preguntas_Frecuentes_Principal extends javax.swing.JFrame {
 
     private void RegistrarseMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RegistrarseMouseClicked
         // TODO add your handling code here:
+<<<<<<< HEAD
         Vista_Registro_Grupo registroU = new Vista_Registro_Grupo(conn);
+=======
+        Vista_Registro_Usuario registroU = new Vista_Registro_Usuario(conn);
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
         registroU.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_RegistrarseMouseClicked

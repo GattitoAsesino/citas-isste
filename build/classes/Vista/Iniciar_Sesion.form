@@ -111,11 +111,15 @@
                       <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="Registrarse" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="RegisGrupo" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="502" max="-2" attributes="0"/>
+=======
+                      <EmptySpace min="-2" pref="422" max="-2" attributes="0"/>
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="245" max="-2" attributes="0"/>
@@ -136,8 +140,11 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="Registrarse" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="RegisGrupo" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
                       </Group>
                       <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
                   </Group>
@@ -339,6 +346,7 @@
                 </Container>
               </SubComponents>
             </Container>
+<<<<<<< HEAD
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -361,6 +369,8 @@
                 <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="RegisGrupoMouseClicked"/>
               </Events>
             </Component>
+=======
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jPanel9">

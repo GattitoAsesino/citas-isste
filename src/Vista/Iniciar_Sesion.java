@@ -48,8 +48,11 @@ public class Iniciar_Sesion extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         contraseña = new javax.swing.JPasswordField();
         jPanel8 = new javax.swing.JPanel();
+<<<<<<< HEAD
         jLabel2 = new javax.swing.JLabel();
         RegisGrupo = new javax.swing.JLabel();
+=======
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
         jPanel9 = new javax.swing.JPanel();
         equipoMedico1 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
@@ -211,6 +214,7 @@ public class Iniciar_Sesion extends javax.swing.JFrame {
                 .addGap(40, 40, 40))
         );
 
+<<<<<<< HEAD
         jLabel2.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         jLabel2.setText("o");
 
@@ -223,6 +227,8 @@ public class Iniciar_Sesion extends javax.swing.JFrame {
             }
         });
 
+=======
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
@@ -232,11 +238,15 @@ public class Iniciar_Sesion extends javax.swing.JFrame {
                 .addComponent(jLabel16)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Registrarse)
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel2)
                 .addGap(18, 18, 18)
                 .addComponent(RegisGrupo)
                 .addGap(502, 502, 502))
+=======
+                .addGap(422, 422, 422))
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(245, 245, 245)
                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -253,9 +263,13 @@ public class Iniciar_Sesion extends javax.swing.JFrame {
                 .addGap(52, 52, 52)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel16)
+<<<<<<< HEAD
                     .addComponent(Registrarse)
                     .addComponent(jLabel2)
                     .addComponent(RegisGrupo))
+=======
+                    .addComponent(Registrarse))
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
                 .addGap(80, 80, 80))
         );
 
@@ -427,6 +441,7 @@ public class Iniciar_Sesion extends javax.swing.JFrame {
         this.setVisible(false);
     }//GEN-LAST:event_preguntas_FrecuentesMouseClicked
 
+<<<<<<< HEAD
     private void RegisGrupoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RegisGrupoMouseClicked
         Vista_Registro_Grupo vistaGrupo = new Vista_Registro_Grupo(conn);
         vistaGrupo.setVisible(true);
@@ -434,6 +449,9 @@ public class Iniciar_Sesion extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel RegisGrupo;
+=======
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     private javax.swing.JLabel Registrarse;
     private javax.swing.JPasswordField contraseña;
     private javax.swing.JTextField correo;
@@ -443,7 +461,10 @@ public class Iniciar_Sesion extends javax.swing.JFrame {
     private javax.swing.JLabel inicio;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel16;
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel2;
+=======
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;

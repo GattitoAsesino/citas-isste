@@ -4,6 +4,7 @@
  */
 package Clases;
 
+<<<<<<< HEAD
 import java.util.Collections;
 import java.util.List;
 
@@ -12,6 +13,9 @@ import java.util.List;
  * @author sherl
  */
 public class Medico implements ComponenteHospital {
+=======
+public class Medico {
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     private int id;
     private String nombre;
     private String especialidad;
@@ -22,7 +26,11 @@ public class Medico implements ComponenteHospital {
         this.especialidad = especialidad;
         this.correo=correo;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     public int getId() {
         return id;
     }
@@ -42,6 +50,7 @@ public class Medico implements ComponenteHospital {
     public String getEspecialidad() {
         return especialidad;
     }
+<<<<<<< HEAD
     
     @Override
     public void mostrarInformacion() {
@@ -61,5 +70,11 @@ public class Medico implements ComponenteHospital {
     @Override
     public List<ComponenteHospital> getSubordinados() {
         return Collections.emptyList(); // No tiene subordinados
+=======
+
+    @Override
+    public String toString() {
+        return nombre + " (" + especialidad + ")";
+>>>>>>> 2c229d15a4fbd387aa1e0d7557e6575d9243f5cf
     }
 }

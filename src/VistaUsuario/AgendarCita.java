@@ -32,9 +32,12 @@ public class AgendarCita extends javax.swing.JFrame {
         doctor.setEnabled(false);
         Fecha.setEnabled(false);
         Hora.setEnabled(false);
+<<<<<<< HEAD
         
         FormatoCitaImplementacion formatoCita = new FormatoCitaBD();
         FormatoCita Formato_Citas = new FormatoCita(formatoCita);
+=======
+>>>>>>> b1841626a0b08d9e9be95440c3e0ec604e7f18ec
         this.conn=conn;
         Formato_Citas.obtenerDatosSucursales(conn,Sucursal);
     }
